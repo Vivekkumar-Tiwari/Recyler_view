@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         arranime.add(new AnimeModel(R.drawable.saske, "Sasuke Uchiha", "(10/8.01)   (🩷___---___🩷)"));
         arranime.add(new AnimeModel(R.drawable.gagooo, "Satoru Gojo", "(10/9.8)   (💙___---___💙)"));
         arranime.add(new AnimeModel(R.drawable.sukuuunaa, "Ryomen Sukuna", "(10/9.89)   (❤️___---___❤️)"));
+        arranime.add(new AnimeModel(R.drawable.sukuuunaa, "Ryomen Sukuna", "(10/9.89)   (❤️___---___❤️)"));
         AnimeAdapter adapter = new AnimeAdapter(this, arranime);
         recyclerView.setAdapter(adapter);
     }
